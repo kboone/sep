@@ -392,8 +392,8 @@ int sep_extract(void *image, void *noise, int dtype, int ndtype, int w, int h,
 			  "detection threshold was reached. Check that "
 			  "the image is background subtracted and the "
 			  "detection threshold is not too low. If you "
-                          "need to increase the limit, use "
-                          "sep.set_extract_pixstack.",
+			  "need to increase the limit, use "
+			  "sep.set_extract_pixstack.",
 			  (int)mem_pixstack);
 		  put_errdetail(errtext);
 		  goto exit;
